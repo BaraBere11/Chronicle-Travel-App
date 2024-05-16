@@ -1,0 +1,838 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Generated schema for Root",
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "User": {
+          "type": "object",
+          "properties": {
+            "_comment": {
+              "type": "string"
+            },
+            "FIRST_NAME": {
+              "type": "string"
+            },
+            "LAST_NAME": {
+              "type": "string"
+            },
+            "USER_ID": {
+              "type": "number"
+            },
+            "USER_NAME": {
+              "type": "string"
+            },
+            "USER_PASS": {
+              "type": "string"
+            },
+            "DATE_CREATED": {
+              "type": "string"
+            },
+            "IS_ACTIVE": {
+              "type": "boolean"
+            },
+            "EMAIL_ADDRESS": {
+              "type": "string"
+            },
+            "USER_JOURNAL": {
+              "type": "object",
+              "properties": {
+                "_comment": {
+                  "type": "string"
+                },
+                "OWNER_USER_ID": {
+                  "type": "number"
+                },
+                "DATE_CREATED": {
+                  "type": "string"
+                },
+                "JOURNAL_ID": {
+                  "type": "number"
+                },
+                "JOURNAL_ENTRY_SET": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "journalEntry1": {
+                        "type": "object",
+                        "properties": {
+                          "_comment": {
+                            "type": "string"
+                          },
+                          "JOURNAL_ENTRY_ID": {
+                            "type": "number"
+                          },
+                          "JOURNAL_ENTRY_OWNER_ID": {
+                            "type": "number"
+                          },
+                          "DATE_CREATED": {
+                            "type": "string"
+                          },
+                          "JOURNAL_ENTRY_BODY": {
+                            "type": "string"
+                          },
+                          "JOURNAL_ENTRY_SUBJECT": {
+                            "type": "string"
+                          },
+                          "ATTACHMENT_SET": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "att1": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_ID": {
+                                      "type": "number"
+                                    },
+                                    "ATTACHMENT_TYPE": {
+                                      "type": "string"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_DESC": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "ATTACHMENT_ID",
+                                    "ATTACHMENT_TYPE",
+                                    "DATE_ADDED",
+                                    "ATTACHMENT_DESC"
+                                  ]
+                                },
+                                "att2": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_ID": {
+                                      "type": "number"
+                                    },
+                                    "ATTACHMENT_TYPE": {
+                                      "type": "string"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_DESC": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "ATTACHMENT_ID",
+                                    "ATTACHMENT_TYPE",
+                                    "DATE_ADDED",
+                                    "ATTACHMENT_DESC"
+                                  ]
+                                },
+                                "att3": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_ID": {
+                                      "type": "number"
+                                    },
+                                    "ATTACHMENT_TYPE": {
+                                      "type": "string"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_DESC": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "ATTACHMENT_ID",
+                                    "ATTACHMENT_TYPE",
+                                    "DATE_ADDED",
+                                    "ATTACHMENT_DESC"
+                                  ]
+                                }
+                              },
+                              "required": []
+                            }
+                          }
+                        },
+                        "required": [
+                          "_comment",
+                          "JOURNAL_ENTRY_ID",
+                          "JOURNAL_ENTRY_OWNER_ID",
+                          "DATE_CREATED",
+                          "JOURNAL_ENTRY_BODY",
+                          "JOURNAL_ENTRY_SUBJECT",
+                          "ATTACHMENT_SET"
+                        ]
+                      },
+                      "journalEntry2": {
+                        "type": "object",
+                        "properties": {
+                          "_comment": {
+                            "type": "string"
+                          },
+                          "JOURNAL_ENTRY_ID": {
+                            "type": "number"
+                          },
+                          "JOURNAL_ENTRY_OWNER_ID": {
+                            "type": "number"
+                          },
+                          "DATE_CREATED": {
+                            "type": "string"
+                          },
+                          "JOURNAL_ENTRY_BODY": {
+                            "type": "string"
+                          },
+                          "JOURNAL_ENTRY_SUBJECT": {
+                            "type": "string"
+                          },
+                          "ATTACHMENT_SET": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "att1": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_ID": {
+                                      "type": "number"
+                                    },
+                                    "ATTACHMENT_TYPE": {
+                                      "type": "string"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_DESC": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "ATTACHMENT_ID",
+                                    "ATTACHMENT_TYPE",
+                                    "DATE_ADDED",
+                                    "ATTACHMENT_DESC"
+                                  ]
+                                },
+                                "att2": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_ID": {
+                                      "type": "number"
+                                    },
+                                    "ATTACHMENT_TYPE": {
+                                      "type": "string"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_DESC": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "ATTACHMENT_ID",
+                                    "ATTACHMENT_TYPE",
+                                    "DATE_ADDED",
+                                    "ATTACHMENT_DESC"
+                                  ]
+                                },
+                                "att3": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_ID": {
+                                      "type": "number"
+                                    },
+                                    "ATTACHMENT_TYPE": {
+                                      "type": "string"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_DESC": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "ATTACHMENT_ID",
+                                    "ATTACHMENT_TYPE",
+                                    "DATE_ADDED",
+                                    "ATTACHMENT_DESC"
+                                  ]
+                                }
+                              },
+                              "required": []
+                            }
+                          }
+                        },
+                        "required": [
+                          "_comment",
+                          "JOURNAL_ENTRY_ID",
+                          "JOURNAL_ENTRY_OWNER_ID",
+                          "DATE_CREATED",
+                          "JOURNAL_ENTRY_BODY",
+                          "JOURNAL_ENTRY_SUBJECT",
+                          "ATTACHMENT_SET"
+                        ]
+                      }
+                    },
+                    "required": []
+                  }
+                }
+              },
+              "required": [
+                "_comment",
+                "OWNER_USER_ID",
+                "DATE_CREATED",
+                "JOURNAL_ID",
+                "JOURNAL_ENTRY_SET"
+              ]
+            },
+            "USER_TIMELINE": {
+              "type": "object",
+              "properties": {
+                "_comment": {
+                  "type": "string"
+                },
+                "OWNER_USER_ID": {
+                  "type": "number"
+                },
+                "DATE_CREATED": {
+                  "type": "string"
+                },
+                "TIMELINE_ID": {
+                  "type": "number"
+                },
+                "TIMELINE_ENTRY_SET": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "timeLineEntry1": {
+                        "type": "object",
+                        "properties": {
+                          "_comment": {
+                            "type": "string"
+                          },
+                          "TIMELINE_ENTRY_ID": {
+                            "type": "number"
+                          },
+                          "DATE_ADDED": {
+                            "type": "string"
+                          },
+                          "TIMELINE_ENTRY_OWNER_ID": {
+                            "type": "number"
+                          },
+                          "TIMELINE_ENTRY_BODY": {
+                            "type": "string"
+                          },
+                          "TIMELINE_ENTRY_SUBJECT": {
+                            "type": "string"
+                          },
+                          "ATTACHMENT_SET": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "att1": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_ID": {
+                                      "type": "number"
+                                    },
+                                    "ATTACHMENT_TYPE": {
+                                      "type": "string"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_DESC": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "ATTACHMENT_ID",
+                                    "ATTACHMENT_TYPE",
+                                    "DATE_ADDED",
+                                    "ATTACHMENT_DESC"
+                                  ]
+                                },
+                                "att2": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_ID": {
+                                      "type": "number"
+                                    },
+                                    "ATTACHMENT_TYPE": {
+                                      "type": "string"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_DESC": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "ATTACHMENT_ID",
+                                    "ATTACHMENT_TYPE",
+                                    "DATE_ADDED",
+                                    "ATTACHMENT_DESC"
+                                  ]
+                                },
+                                "att3": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_ID": {
+                                      "type": "number"
+                                    },
+                                    "ATTACHMENT_TYPE": {
+                                      "type": "string"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    },
+                                    "ATTACHMENT_DESC": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "ATTACHMENT_ID",
+                                    "ATTACHMENT_TYPE",
+                                    "DATE_ADDED",
+                                    "ATTACHMENT_DESC"
+                                  ]
+                                }
+                              },
+                              "required": []
+                            }
+                          },
+                          "LIKED_BY_SET": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "userFriend1": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "FRIEND_USER_ID": {
+                                      "type": "number"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "FRIEND_USER_ID",
+                                    "DATE_ADDED"
+                                  ]
+                                },
+                                "userFriend2": {
+                                  "type": "object",
+                                  "properties": {
+                                    "_comment": {
+                                      "type": "string"
+                                    },
+                                    "FRIEND_USER_ID": {
+                                      "type": "number"
+                                    },
+                                    "DATE_ADDED": {
+                                      "type": "string"
+                                    }
+                                  },
+                                  "required": [
+                                    "_comment",
+                                    "FRIEND_USER_ID",
+                                    "DATE_ADDED"
+                                  ]
+                                }
+                              },
+                              "required": []
+                            }
+                          }
+                        },
+                        "required": [
+                          "_comment",
+                          "TIMELINE_ENTRY_ID",
+                          "DATE_ADDED",
+                          "TIMELINE_ENTRY_OWNER_ID",
+                          "TIMELINE_ENTRY_BODY",
+                          "TIMELINE_ENTRY_SUBJECT",
+                          "ATTACHMENT_SET",
+                          "LIKED_BY_SET"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "timeLineEntry1"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "_comment",
+                "OWNER_USER_ID",
+                "DATE_CREATED",
+                "TIMELINE_ID",
+                "TIMELINE_ENTRY_SET"
+              ]
+            },
+            "USER_FRIEND_SET": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "userFriend1": {
+                    "type": "object",
+                    "properties": {
+                      "_comment": {
+                        "type": "string"
+                      },
+                      "FRIEND_USER_ID": {
+                        "type": "number"
+                      },
+                      "DATE_ADDED": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "_comment",
+                      "FRIEND_USER_ID",
+                      "DATE_ADDED"
+                    ]
+                  },
+                  "userFriend2": {
+                    "type": "object",
+                    "properties": {
+                      "_comment": {
+                        "type": "string"
+                      },
+                      "FRIEND_USER_ID": {
+                        "type": "number"
+                      },
+                      "DATE_ADDED": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "_comment",
+                      "FRIEND_USER_ID",
+                      "DATE_ADDED"
+                    ]
+                  }
+                },
+                "required": [
+                  "userFriend1",
+                  "userFriend2"
+                ]
+              }
+            }
+          },
+          "required": [
+            "_comment",
+            "FIRST_NAME",
+            "LAST_NAME",
+            "USER_ID",
+            "USER_NAME",
+            "USER_PASS",
+            "DATE_CREATED",
+            "IS_ACTIVE",
+            "EMAIL_ADDRESS",
+            "USER_JOURNAL",
+            "USER_TIMELINE",
+            "USER_FRIEND_SET"
+          ]
+        },
+        "_comment": {
+          "type": "string"
+        },
+        "VIDEO_TYPE": {
+          "type": "string"
+        },
+        "PICTURE_TYPE": {
+          "type": "string"
+        },
+        "RATING_TYPE": {
+          "type": "string"
+        },
+        "FORUM_ID": {
+          "type": "number"
+        },
+        "thread_set": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "_comment": {
+                "type": "string"
+              },
+              "THREAD_ID": {
+                "type": "number"
+              },
+              "DATE_TIME_CREATED": {
+                "type": "string"
+              },
+              "THREAD_TITLE": {
+                "type": "string"
+              },
+              "THREAD_OWNER_ID": {
+                "type": "number"
+              },
+              "THREAD_BODY": {
+                "type": "string"
+              },
+              "THREAD_ATTACHMENT_SET": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "attach1": {
+                      "type": "object",
+                      "properties": {
+                        "_comment": {
+                          "type": "string"
+                        },
+                        "ATTACHMENT_ID": {
+                          "type": "number"
+                        },
+                        "ATTACHMENT_TYPE": {
+                          "type": "string"
+                        },
+                        "DATE_ADDED": {
+                          "type": "string"
+                        },
+                        "ATTACHMENT_DESC": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "_comment",
+                        "ATTACHMENT_ID",
+                        "ATTACHMENT_TYPE",
+                        "DATE_ADDED",
+                        "ATTACHMENT_DESC"
+                      ]
+                    },
+                    "attach2": {
+                      "type": "object",
+                      "properties": {
+                        "_comment": {
+                          "type": "string"
+                        },
+                        "ATTACHMENT_ID": {
+                          "type": "number"
+                        },
+                        "ATTACHMENT_TYPE": {
+                          "type": "string"
+                        },
+                        "DATE_ADDED": {
+                          "type": "string"
+                        },
+                        "ATTACHMENT_DESC": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "_comment",
+                        "ATTACHMENT_ID",
+                        "ATTACHMENT_TYPE",
+                        "DATE_ADDED",
+                        "ATTACHMENT_DESC"
+                      ]
+                    },
+                    "attach3": {
+                      "type": "object",
+                      "properties": {
+                        "_comment": {
+                          "type": "string"
+                        },
+                        "ATTACHMENT_ID": {
+                          "type": "number"
+                        },
+                        "ATTACHMENT_TYPE": {
+                          "type": "string"
+                        },
+                        "DATE_ADDED": {
+                          "type": "string"
+                        },
+                        "ATTACHMENT_DESC": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "_comment",
+                        "ATTACHMENT_ID",
+                        "ATTACHMENT_TYPE",
+                        "DATE_ADDED",
+                        "ATTACHMENT_DESC"
+                      ]
+                    }
+                  },
+                  "required": []
+                }
+              },
+              "THREAD_REPLY_SET": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "threadReply1": {
+                      "type": "object",
+                      "properties": {
+                        "REPLY_ID": {
+                          "type": "number"
+                        },
+                        "REPLY_BODY": {
+                          "type": "string"
+                        },
+                        "REPLY_OWNER_ID": {
+                          "type": "number"
+                        },
+                        "REPLY_ATTACHMENT_SET": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "ATTACHMENT_ID": {
+                                "type": "number"
+                              },
+                              "ATTACHMENT_TYPE": {
+                                "type": "string"
+                              },
+                              "DATE_ADDED": {
+                                "type": "string"
+                              },
+                              "ATTACHMENT_DESC": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "ATTACHMENT_ID",
+                              "ATTACHMENT_TYPE",
+                              "DATE_ADDED",
+                              "ATTACHMENT_DESC"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "REPLY_ID",
+                        "REPLY_BODY",
+                        "REPLY_OWNER_ID",
+                        "REPLY_ATTACHMENT_SET"
+                      ]
+                    },
+                    "threadReply2": {
+                      "type": "object",
+                      "properties": {
+                        "REPLY_ID": {
+                          "type": "number"
+                        },
+                        "DATE_CREATED": {
+                          "type": "string"
+                        },
+                        "REPLY_BODY": {
+                          "type": "string"
+                        },
+                        "REPLY_OWNER_ID": {
+                          "type": "number"
+                        },
+                        "REPLY_ATTACHMENT_SET": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "ATTACHMENT_ID": {
+                                "type": "number"
+                              },
+                              "ATTACHMENT_TYPE": {
+                                "type": "string"
+                              },
+                              "DATE_ADDED": {
+                                "type": "string"
+                              },
+                              "ATTACHMENT_DESC": {
+                                "type": "string"
+                              }
+                            },
+                            "required": [
+                              "ATTACHMENT_ID",
+                              "ATTACHMENT_TYPE",
+                              "DATE_ADDED",
+                              "ATTACHMENT_DESC"
+                            ]
+                          }
+                        }
+                      },
+                      "required": [
+                        "REPLY_ID",
+                        "DATE_CREATED",
+                        "REPLY_BODY",
+                        "REPLY_OWNER_ID",
+                        "REPLY_ATTACHMENT_SET"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "threadReply1",
+                    "threadReply2"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "_comment",
+              "THREAD_ID",
+              "DATE_TIME_CREATED",
+              "THREAD_TITLE",
+              "THREAD_OWNER_ID",
+              "THREAD_BODY",
+              "THREAD_ATTACHMENT_SET",
+              "THREAD_REPLY_SET"
+            ]
+          }
+        }
+      },
+      "required": []
+    }
+  }
