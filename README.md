@@ -4,7 +4,7 @@ Welcome to Chronicle – your go-to platform for documenting and sharing travel 
 
 The Chronicle app is a mobile web application designed to streamline the documentation and sharing of travel experiences. It offers users a platform to record their journeys, capturing memories through text, photos, and videos. With features like user authentication, multimedia file storage, and interactive maps, Chronicle facilitates seamless travel documentation and sharing. Whether users are solo adventurers, globetrotting families, or travel enthusiasts, Chronicle provides a centralized hub for organizing and reliving their travel adventures.
 
-[Live Demo](https://chronicle-web-app-eight.vercel.app/)
+[Live Demo](https://chronicle-web-app-eight.vercel.app/) - unavailable
 
 Feel free to create an account to try out the application!
 
